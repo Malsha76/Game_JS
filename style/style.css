@@ -1,0 +1,14 @@
+.body{
+    margin: 0px;
+}
+.background{
+    width: 100%;
+    height: 100vh;
+    background-image: url("../assets/images/vecteezy_alien-planet-game-background_6316482.jpg");
+    background-size: cover;
+
+}
+.boy{
+    margin-top: 320px ;
+    position: absolute;
+}
