@@ -15,10 +15,10 @@ function idleAnimation(){
          idleImageNumber = 1;
      }
 
-boy.src = "assets/images/png/Idle__000.png (" + idleImageNumber + ").png";
+boy.src = "assets/images/png/idle_("+ idleImageNumber +").png";
 }
 
 
- function idleAnimationStart(){
+function idleAnimationStart(){
      idleAnimationNumber = setInterval(idleAnimation,200);
  }
