@@ -222,6 +222,9 @@ function boyDeadAnimation(){
 
     if (deadImageNumber == 11) {
         deadImageNumber = 10;
+
+        document.getElementById("end").style.visibility = "vidible";
+        document.getElementById("endScore").innerHTML = score;
     }
 
         boy.src = "assets/images/png/Dead ("+ deadImageNumber +").png";
@@ -229,4 +232,8 @@ function boyDeadAnimation(){
 
 }
 
+// ------------end---------------
+ function reload(){
+    location.reload();
+ }
 
