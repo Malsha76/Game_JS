@@ -7,8 +7,20 @@
     background-image: url("../assets/images/vecteezy_alien-planet-game-background_6316482.jpg");
     background-size: cover;
 
+/*//box*/
+    overflow-x: hidden;
+    position: absolute;
+
 }
 .boy{
-    margin-top: 285px ;
+    margin-top: 230px ;
     position: absolute;
+}
+.box{
+    width: 50px;
+    height: 50px;
+    background-color:dodgerblue;
+    position: absolute;
+    margin-top: 450px;
+
 }
