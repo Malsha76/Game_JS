@@ -182,8 +182,8 @@ function createBoxes() {
             box.style.marginLeft = newMarginLeft + "px";
 
             // ------------------------
-            if (newMarginLeft >= -100 & newMarginLeft <= -100){
-                if(boyMarginTop > 300){
+            if (newMarginLeft >= -110 & newMarginLeft <= -100){
+                if(boyMarginTop > 300) {
                     clearInterval(boxAnimationId);
 
                     clearInterval(runAnimationNumber);
@@ -193,15 +193,31 @@ function createBoxes() {
                     jumpAnimationNumber = -1;
 
                     clearInterval(moveBackgroundAnimationId);
-                    moveBackgroundAnimationId =1;
-                //-----------------------------------------
+                    moveBackgroundAnimationId = -1;
 
-
+      deadAnimationNumber = setInterval(boyDeadAnimation,100); //dead
                 }
             }
 
         }
     }
 
+    // --------------dead------------------
+
+   deadImageNumber=1;
+    deadAnimationNumber=0;
+
+
+function boyDeadAnimation(){
+        deadImageNumber = deadImageNumber + 1;
+
+    if (deadImageNumber == 11) {
+        deadImageNumber = 10;
+    }
+
+        boy.src = "assets/images/png/Dead ("+ deadImageNumber +").png";
+
+
+}
 
 
