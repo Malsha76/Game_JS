@@ -17,10 +17,13 @@
     position: absolute;
 }
 .box{
-    width: 50px;
-    height: 50px;
-    background-color:dodgerblue;
+    width: 225px;
+    height: 235px;
+    /*background-color:dodgerblue;*/
     position: absolute;
-    margin-top: 450px;
+    margin-top: 395px;
+    background-image: url("/assets/images/spyro-dragon.gif");
+    background-size: contain;
+    background-repeat: no-repeat;
 
 }
