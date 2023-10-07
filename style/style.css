@@ -13,15 +13,15 @@
 
 }
 .boy{
-    margin-top: 230px ;
+    margin-top: 347px ;
     position: absolute;
 }
 .box{
-    width: 225px;
-    height: 235px;
+    width: 160px;
+    height: 160px;
     /*background-color:dodgerblue;*/
     position: absolute;
-    margin-top: 395px;
+    margin-top: 443px;
     background-image: url("/assets/images/spyro-dragon.gif");
     background-size: contain;
     background-repeat: no-repeat;
