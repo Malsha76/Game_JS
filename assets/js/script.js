@@ -462,35 +462,6 @@ $(document).on('keypress', function (e) {
         }
         removeBlur();
     }
-        // else if (e.keyCode === 122) {
-        //     clearInterval(idleAnimationNumber);
-        //     idleAnimationNumber = 0;
-        //
-        //     if (flyAnimationNumber !== 0) {
-        //         clearInterval(idleAnimationNumber);
-        //         idleAnimationNumber = 0;
-        //     } else {
-        //         idleAnimationStart();
-        //     }
-        //
-        //     clearInterval(runAnimationNumber);
-        //     runAnimationNumber = 0;
-        //
-        //     clearInterval(barrierAnimationId2);
-        //     barrierAnimationId2 = 0;
-        //
-        //     clearInterval(jumpAnimationNumber);
-        //     jumpAnimationNumber = 0;
-        //
-        //     clearInterval(moveBackgroundAnimationId);
-        //     moveBackgroundAnimationId = 0;
-        //
-        //     blurComponents();
-        //
-        //     $(document).off("32");
-        //     $(document).off("13");
-        //
-    // }
     else if (e.keyCode === 32) {
         clearInterval(idleAnimationNumber);
         idleAnimationNumber = 0;
