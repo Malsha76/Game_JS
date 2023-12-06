@@ -2,30 +2,30 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>MY GAME</title>
-    <link rel="stylesheet" href="style/style.css">
+    <title>Ninja Run</title>
+    <link rel="stylesheet" href="assets/style/home.css">
+
+
 </head>
-<body class="body" onload="idleAnimationStart(); createBoxes();" onkeypress="keyCheck(event)">
-<div class="background" id ="background" >
+<body>
+<section id="home-bg">
+    <div id="titleImg"></div>
+    <button id="btnPlay"></button>
+</section>
 
-    <!--<img src="assets/images/png/Run__002.png" height="458" width="363"/>-->
-    <img src="assets/images/png/Idle (1).png" height="210" width="150" class="boy" id="boy"/>
-<!--    /*cc add krnn clz boy js add krnn id boy*/-->
+<div id="ttBackground"></div>
 
-<!--    -------------------------score-------------------------------------->
-    <div class="score" id="score">0 </div>
-
-
+<div id="controller-icons">
+    <button id="setting-icon"></button>
+    <button id="help-icon"></button>
+    <button id="sound-icon"></button>
 </div>
 
-<div class="end" id= "end">
-  <div style="color: cornflowerblue"> GAME OVER</div>
-    <div style="color: lightgreen">Your Score</div>
-    <div style="color: palevioletred" id="endScore"></div>
-    <button class="btn" onclick="reload()" >Try Again</button>
-</div> //end
-
+<section id="help">
+    <button id="btnClose"></button>
+</section>
+<script src="assets/js/jquery-3.6.1.min.js"></script>
 <script src="assets/js/script.js"></script>
-
+<script src="assets/js/homeScript.js"></script>
 </body>
 </html>
