@@ -31,13 +31,16 @@ function barrierAnimation() {
         if (newMarginLeft >= -110 & newMarginLeft <= 100) {
             if (girlMarginTop > 175) {
                 if (i === 0 || i === 1 || i === 2 || i === 3 || i === 4 || i === 5 || i === 6) {
-                    if (tempI < i && $("#heart3").css('visibility') !== "hidden" && $("#heart2").css('visibility') !== "hidden" && $("#heart1").css('visibility') !== "hidden") {
+                    if (tempI < i && $("#heart3").css('visibility') !== "hidden" && $("#heart2").css('visibility')
+                        !== "hidden" && $("#heart1").css('visibility') !== "hidden") {
                         $("#heart3").css('visibility', 'hidden');
                         tempI = i;
-                    } else if (tempI < i && $("#heart3").css('visibility') === "hidden" && $("#heart2").css('visibility') !== "hidden" && $("#heart1").css('visibility') !== "hidden") {
+                    } else if (tempI < i && $("#heart3").css('visibility') === "hidden" && $("#heart2").css('visibility')
+                        !== "hidden" && $("#heart1").css('visibility') !== "hidden") {
                         $("#heart2").css('visibility', 'hidden');
                         tempI = i;
-                    } else if (tempI < i && $("#heart3").css('visibility') === "hidden" && $("#heart2").css('visibility') === "hidden" && $("#heart1").css('visibility') !== "hidden") {
+                    } else if (tempI < i && $("#heart3").css('visibility') === "hidden" && $("#heart2").css('visibility')
+                        === "hidden" && $("#heart1").css('visibility') !== "hidden") {
                         $("#heart1").css('visibility', 'hidden');
                         tempI = i;
                         clearInterval(barrierAnimationId);
